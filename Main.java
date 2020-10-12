@@ -36,6 +36,10 @@ class Main
       System.out.println("Now to check instagram.");
     }
     import java.util.Scanner;
-    Scanner scan = new Scanner(System.in);
+    {
+      Scanner scan = new Scanner(System.in);
+      System.out.println("Type your username.");
+      scan.next();
+    }
   }  
 }
