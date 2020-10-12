@@ -18,7 +18,7 @@ class Main
   
   for (int count = 1; count <= 10;count++)
     {
-     System.out.println(count + " pushups "); 
+      System.out.println(count + " pushups "); 
     }
     {
       System.out.println("Am done, now to do 10 situps.");
@@ -27,7 +27,7 @@ class Main
     while (count <= 10)
     {
       System.out.println(count + " situps");
-     count++;
+      count++;
     }
     {
       System.out.println("Am done.");
@@ -35,5 +35,7 @@ class Main
     {
       System.out.println("Now to check instagram.");
     }
+    import java.util.Scanner;
+    Scanner scan = new Scanner(System.in);
   }  
 }
