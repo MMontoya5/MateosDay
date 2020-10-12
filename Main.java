@@ -18,10 +18,19 @@ class Main
   
   for (int count = 1; count <= 10;count++)
     {
-     System.out.println(count + " pushup "); 
+     System.out.println(count + " pushups "); 
     }
     {
-     System.out.println("Am done, now to situps.");
+     System.out.println("Am done, now to do 10 situps.");
     }
+    int count = 1; 
+    while (count <= 10)
+     {
+        System.out.println(count + " situps");
+        count++;
+     }
+     {
+      System.out.println("Am done.");
+     }
   }  
 }
