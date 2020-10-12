@@ -21,16 +21,19 @@ class Main
      System.out.println(count + " pushups "); 
     }
     {
-     System.out.println("Am done, now to do 10 situps.");
+      System.out.println("Am done, now to do 10 situps.");
     }
     int count = 1; 
     while (count <= 10)
     {
-     System.out.println(count + " situps");
+      System.out.println(count + " situps");
      count++;
     }
     {
-     System.out.println("Am done.");
+      System.out.println("Am done.");
+    }
+    {
+      System.out.println("Now to check instagram.");
     }
   }  
 }
