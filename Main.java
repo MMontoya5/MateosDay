@@ -25,12 +25,12 @@ class Main
     }
     int count = 1; 
     while (count <= 10)
-     {
-        System.out.println(count + " situps");
-        count++;
-     }
-     {
-      System.out.println("Am done.");
-     }
+    {
+     System.out.println(count + " situps");
+     count++;
+    }
+    {
+     System.out.println("Am done.");
+    }
   }  
 }
