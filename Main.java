@@ -46,7 +46,7 @@ class Main
       System.out.println("Your password is, " + password);
     }
     {
-      System.out.println("Today was a productive day. Can't wait for tommorow :)"); 
+      System.out.println("Today was a productive day. Can't wait for tommorow :) :)"); 
     }
   } 
 }
