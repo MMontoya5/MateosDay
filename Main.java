@@ -3,10 +3,10 @@ class Main
 {
   public static void main(String[] args) 
   {
-    boolean morning = false;
-    boolean monday = false;
-    boolean hot = false; 
-    if(!morning && !monday || hot)
+    boolean morning = false; //is it morning  
+    boolean monday = false;  //is it monday
+    boolean hot = false;     //is it hot
+    if(!morning && !monday || hot) // will determine if Mateo will wake up or not
     {
       System.out.print("I need to "); 
     }
@@ -17,7 +17,7 @@ class Main
       System.out.println("wake up and workout.");
       System.out.println("I need to do 10 pushups."); 
   
-  for (int count = 1; count <= 10;count++)
+  for (int count = 1; count <= 10;count++) //For loop to show how many push ups he does
     {
       System.out.println(count + " pushups "); 
     }
@@ -25,7 +25,7 @@ class Main
       System.out.println("Am done, now to do 10 situps.");
     }
     int count = 1; 
-    while (count <= 10)
+    while (count <= 10) //While loop to show how many sit ups he has done 
     {
       System.out.println(count + " situps");
       count++;
@@ -37,7 +37,7 @@ class Main
       System.out.println("Now to check instagram.");
     }
     {
-      Scanner scan = new Scanner(System.in);
+      Scanner scan = new Scanner(System.in); //Added scanner so Mateo can login into instagram
       System.out.println("Type your username");
       String username = scan.next();
       System.out.println("Password");
