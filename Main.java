@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class Main 
 {
   public static void main(String[] args) 
@@ -35,7 +36,6 @@ class Main
     {
       System.out.println("Now to check instagram.");
     }
-    import java.util.Scanner;
     {
       Scanner scan = new Scanner(System.in);
       System.out.println("Type your username");
@@ -43,7 +43,10 @@ class Main
       System.out.println("Password");
       String password = scan.next();
       System.out.println("Welcome back, " + username); 
-      System.out.println("Your password " + password + " is to weak");
+      System.out.println("Your password is, " + password);
     }
-  }  
+    {
+      System.out.println("Today was a productive day. Can't wait for tommorow :)"); 
+    }
+  } 
 }
