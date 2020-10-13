@@ -38,8 +38,12 @@ class Main
     import java.util.Scanner;
     {
       Scanner scan = new Scanner(System.in);
-      System.out.println("Type your username.");
-      scan.next();
+      System.out.println("Type your username");
+      String username = scan.next();
+      System.out.println("Password");
+      String password = scan.next();
+      System.out.println("Welcome back, " + username); 
+      System.out.println("Your password " + password + " is to weak");
     }
   }  
 }
